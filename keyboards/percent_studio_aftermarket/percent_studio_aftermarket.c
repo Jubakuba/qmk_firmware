@@ -24,7 +24,7 @@ typedef enum {
     COLOR_NUM,
     COLOR_SYMBOL,
     COLOR_SPACE,
-    COLOR_QUANTUM, 
+    COLOR_QUANTUM,
     COLOR_OTHER,
 } key_type_t;
 
