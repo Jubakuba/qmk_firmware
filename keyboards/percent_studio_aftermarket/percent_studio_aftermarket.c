@@ -32,7 +32,7 @@ key_type_t led_history[4] = {COLOR_NONE, COLOR_NONE, COLOR_NONE, COLOR_NONE};
 
 key_type_t get_key_category(uint16_t keycode) {
     uint8_t base_keycode = keycode & 0xFF;
-    bool    shifted      = (get_mods() & (MOD_BIT(KC_LSFT) | MOD_BIT(KC_RSFT)));
+    bool shifted = (get_mods() & (MOD_BIT(KC_LSFT) | MOD_BIT(KC_RSFT)));
     switch (keycode) {
         case QK_MOMENTARY ... QK_MOMENTARY_MAX:
         case QK_TOGGLE_LAYER ... QK_TOGGLE_LAYER_MAX:
