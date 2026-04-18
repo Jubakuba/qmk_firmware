@@ -17,7 +17,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "quantum.h"
 
-typedef enum { COLOR_NONE, COLOR_BACKSPACE, COLOR_ALPHA, COLOR_NUM, COLOR_SYMBOL, COLOR_SPACE, COLOR_QUANTUM, COLOR_OTHER } key_type_t;
+typedef enum {
+    COLOR_NONE,
+    COLOR_BACKSPACE,
+    COLOR_ALPHA,
+    COLOR_NUM,
+    COLOR_SYMBOL,
+    COLOR_SPACE,
+    COLOR_QUANTUM, 
+    COLOR_OTHER,
+} key_type_t;
 
 key_type_t led_history[4] = {COLOR_NONE, COLOR_NONE, COLOR_NONE, COLOR_NONE};
 
