@@ -16,7 +16,6 @@
         "rows": ["GP10", "GP11",  "GP12",  "GP13",  "GP14",  "GP15",  "GP26",  "GP27", "GP28"]
     },
     "processor": "RP2040",
-    "url": "https://github.com/Jubakuba/qmk_firmware/tree/master/keyboards/percent_studio_aftermarket",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0004",
